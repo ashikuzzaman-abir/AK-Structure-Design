@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    overflow-x:hidden;
+}
+
+
+
+.image-header{
+    background-image: url(../images/bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 60vh;
+    text-align: center;;
+}
+.image-header-text{
+    margin-top: 10%;
+    color:whitesmoke;
+    font-size: 7vw;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.8);
+}
+.blackoverlay{
+    background: rgba(0, 0, 0, 0.5); height: 60vh;
+}
+
+.about-box{
+    text-align: start;
+    box-shadow: 5px 3px 6px 2px rgba(0, 0, 0, 0.2);
+}
+
+.slide-content{
+    width: 80%;
+    height: 60vh;
+    margin: 0 auto;
+    
+    padding: 10px;
+    
+}
+@media (min-width: 720px){
+    .slider-text{
+        font-size: 3vh;
+        
+    }
+}
+
+
+
+.mssg-section{
+   
+    width: 100%;
+    box-shadow: 5px 3px 6px 2px rgba(0, 0, 0, 0.2);
+}
+.img-box{
+    width: 95%;
+    height: 70vh;
+    background-color: saddlebrown;
+    margin: 5% auto;
+}
+.mssg-textbox{
+    width: 100%;
+    
+    font-size: 3vh;
+    background-color:seagreen;
+    margin: 5% auto;
+    padding:5%;
+}
+
+.mission{
+    width: 100%;
+   
+    box-shadow: 5px 3px 6px 2px rgba(0, 0, 0, 0.2);
+}
+
+.mission-textbox{
+    font-size: 3vh;
+    padding: 5%;
+}
+
+.vision{
+    width: 100%;
+    
+    box-shadow: 5px 3px 6px 2px rgba(0, 0, 0, 0.2);
+}
+
+.vision-textbox{
+    font-size: 3vh;
+    padding: 5%;
+}
+.vision{
+    width: 100%;
+    box-shadow: 5px 3px 6px 2px rgba(0, 0, 0, 0.2);
+}
+
+.concern{
+    width: 100%;
+    box-shadow: 5px 3px 6px 2px rgba(0, 0, 0, 0.2);
+}
+
+.item{
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
+    border-radius: 5px;
+    width: 90%;
+    margin: 10px auto;
+    
+}
+
+.itemtext{
+    padding: 10px;
+    height: 100px;
+    font-size: 3vh;
+    text-align: center;
+     border-radius: 5px;
+    background-color: white;
+}
+
+.itemtext:hover{
+    background-color:#011c39;
+    color: white;
+    transition: 1s ease;
+    
+}
+
+
+
+
+
